@@ -1,0 +1,80 @@
+
+body{
+    background: linear-gradient(155deg,red,white,pink,orange,grey,black,red,white,pink,orange,grey,black,red,white,pink,orange,grey,red,white,pink,orange,grey,black,red,white,pink,orange,grey,black,red,white,pink,orange,grey,black,red,white,pink,orange,grey,black,red,white,pink,orange,grey,black,red,white,pink,orange,grey,black,red,white,pink,orange,grey,black);
+    /*background: linear-gradient(155deg,black,white,grey,black,white,grey,black,white,grey,black,white,grey,black,white,grey,black,white,grey,black,white,grey,black,white,grey,black);*/
+}
+
+
+ h1 {
+    color: white;
+    background-color: red;
+    font-style:oblique;
+ }
+
+ h3 {
+    color: white;
+ }
+
+ .main *{
+    border: solid;
+ }
+
+ .header *{
+    border: solid;
+ }
+
+ li {
+     color: black;
+ }
+
+ .grid {
+   
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    color: black;
+ }
+
+
+ .links *{
+    border: solid;
+ }
+
+ .main{
+    background-color: red;
+    font-style: inherit;
+    font-size: 25px;
+    text-justify: kashida;
+ }
+
+ a:link{
+    font-style: oblique;
+    font-size: 20px;
+    color: white;
+}
+
+a:visited{
+   font-style: oblique;
+   font-size: 20px;
+   color: white;
+}
+
+.item{
+   position: relative;
+}
+
+.item p{
+   position: absolute;
+   top: 30%;
+   left: 50%;
+   transform: translate(-20%);
+   opacity: 0;
+}
+
+.item:hover p{
+   opacity: 1;
+}
+
+.item:hover img{
+   opacity: 0.33;
+}
